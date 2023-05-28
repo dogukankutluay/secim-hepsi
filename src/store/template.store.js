@@ -3,7 +3,7 @@ import queryString from 'query-string'
 import { KEY } from '../constants'
 export const useTemplateStore = defineStore('templateStore', {
   state: () => ({
-    autoplay: 0,
+    autoplay: 1,
     drag: false,
     formDialog: false,
     bultens: JSON.parse(localStorage.getItem(KEY)) || []
